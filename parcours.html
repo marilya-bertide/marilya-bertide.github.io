@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang=fr>
+	<head>
+		<meta charset="utf-8">
+			<title>Parcours</title>
+			<link rel="stylesheet" type="text/css" href="style/reset.css">
+			<link rel="stylesheet" type="text/css" href="style/style.css">
+			<link href='https://fonts.googleapis.com/css?family=Darker Grotesque' rel='stylesheet'>
+			<link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css2?family=Lekton&display=swap" rel="stylesheet">
+
+	</head>
+	<body id="parcours">
+
+		<header>
+			<h1>Marilya <br>
+			Mélissa <br>
+			Bertide</h1>
+			<ul><nav>
+				<a href="index.html" title="Aller à l'accueil"><li>ACCUEIL</li></a>
+				<a href="presentation.html" title="voir ma présentation"><li>PRÉSENTATION</li></a>
+				<a href="portfolio.html" title="voir mes travaux"><li>TRAVAUX</li></a>
+				
+				<a href="index.html#contact" title="me contacter"><li>CONTACT</li></a>
+			</ul></nav>
+		</header>
+		<ul id="forma_expe">
+			<a href="#formations_box" class="js-scrollTo" ><li>Formations</li>
+			<a href="#experiences_box" class="js-scrollTo" ><li>Expériences</li>
+		</ul>
+
+
+		<section id="formations_box">
+			<table id="formations">
+				<tr>
+					<td class="date">DEPUIS 2018</td>
+					<td class="titre_rubrique"><p>DNMADe mention graphisme</p>
+						Parcours identités visuelles<br>
+						Lycée Eugénie Cotton<br>
+						MONTREUIL (93)</td>
+				</tr>
+				<tr>
+					<td class="date">2017 - 2018</td>
+					<td class="titre_rubrique"><p>MàNAA</p>
+						Lycée Eugénie Cotton<br>
+						MONTREUIL (93)</td>
+				</tr>
+				<tr>
+					<td class="date">2016 - 2017</td>
+					<td class="titre_rubrique"><p>Cours de préparation aux écoles d’art, <br>de dessin et modelage</p>
+						École municipale des Beaux-Arts<br>
+						COMPIÈGNE (60)<br><br>
+						<p>1re année de BTS MUC</p>
+						Lycée Charles de Gaulle<br>
+						COMPIÈGNE (60)<br></td>
+				</tr>
+				<tr>
+					<td class="date">JUIN 2016</td>
+					<td class="titre_rubrique"><p>Obtention du baccalauréat STMG</p> 
+						Spécialité mercatique<br>
+						Option musique<br>
+						Mention assez bien<br>
+						Lycée Charles de Gaulle<br>
+						COMPIÈGNE (60)<br></td>
+				</tr>
+			</table>
+			<img src="image/fond1.jpg" id="fond1">
+		</section>
+
+		<section id="experiences_box">
+			<table id="experiences">
+				<tr>
+					<td class="date">DEPUIS MARS 2020</td>
+					<td class="titre_rubrique"><p>AM Prod</p>
+						Stage en agence de création 
+						d’objets média <br>
+						Réalisation de divers projets de design graphique,<br> et de design produits<br>
+						VILLENEUVE-LA-GARENNE (92)</td>
+				</tr>
+				<tr>
+					<td class="date">Du 27 mai au 7 juin 2019</td>
+					<td class="titre_rubrique"><p>Acte Graphique</p>
+						Stage en imprimerie,<br>
+						Réalisation de flyers et de brochures<br>
+						SAINT-MAUR-DES-FOSSÉS (94)</td>
+				</tr>
+				<tr>
+					<td class="date">2016 - 2017</td>
+					<td class="titre_rubrique"><p>CAZAC (association sportive)</p>
+						Refonte de l’identité visuelle <br>
+						modification du logo, flyers, 
+						<br>dépliant, cartes de visite, affiches<br>
+						COMPIÈGNE (60)</td>
+				</tr>
+			</table>
+			<img src="image/fond2.jpg" id="fond2">
+		</section>	
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$('.js-scrollTo').on('click', function() { // Au clic sur un élément
+				var page = $(this).attr('href'); // Page cible
+				var speed = 750; // Durée de l'animation (en ms)
+				$('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+				return false;
+			});
+		});
+	</script>	
+
+	</body>
+</html>
