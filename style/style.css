@@ -1396,6 +1396,12 @@ a{
 	}
 
 	/*parcours fin*/
+#pochoir{
+	height:100vh;
+	width : 100%;
+	object-fit: cover;
+	}
+
 @media(min-width :1024px){
 	#accueil {height: auto}
 	#pochoir+div{
