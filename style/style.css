@@ -96,8 +96,10 @@ nav li:active{
 }
 /*header fin*/
 
-#pochoir{
+#pochoir+div{
 	width: 100vw;
+	padding: 10px;
+	background-color: 10px;
 	
 }
 
