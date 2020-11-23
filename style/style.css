@@ -1411,3 +1411,9 @@ a{
 		align-items: center;
 		justify-content: center;
 	}
+	#description{
+		width: 40%;
+	}
+	#texte_pochoir{
+		width: 55%;
+}
