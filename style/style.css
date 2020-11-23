@@ -1396,4 +1396,13 @@ a{
 	}
 
 	/*parcours fin*/
-@media(min-width :1024px){}
+@media(min-width :1024px){
+	#accueil {height: auto}
+	#pochoir+div{
+		position: absolute ;
+		top: 100px;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-color: transparent;
+	}
