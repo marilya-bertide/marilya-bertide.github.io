@@ -106,13 +106,10 @@ nav li:active{
 
 
 #texte_pochoir{
-	position: absolute;
+	
 	color: rgba(255, 255, 255, 0.2);
 	text-align: left;
-	width: 350px;
 	font-family: "lekton";
-	left: 5vw;
-	top:33vw;
 }
 
 #texte_pochoir:hover{
@@ -122,11 +119,7 @@ nav li:active{
 #description{
 	color: white;
 	text-align: left;
-	width: 28vw;
 	font-family: "yeseva one";
-	position:absolute;
-	left: 5vw;
-	top: 14.5vw;
 	font-size: 2.3rem;
 	line-height: 1.2;
 }
