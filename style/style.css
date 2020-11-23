@@ -98,10 +98,7 @@ nav li:active{
 
 #pochoir{
 	width: 100vw;
-	top: 0vw;
-	left:0vw;
-	position: absolute;
-	z-index: 0;
+	
 }
 
 
