@@ -113,19 +113,20 @@ nav li:active{
 	/*vert début*/
 #home-travaux{
 	background: black;
+}
 #vert{
 
 	height: 115vh;
 	font-size: 1rem;
 }
-#scotchée{
+#scotche{
 	color: rgb(0,255,0);
 	top: 0vw;
 	margin: 0;
 	padding: 0;
 	z-index: 2;
 	}
-#text_scotchée{
+#text_scotche{
 	position: absolute;
 	color: rgba(255, 255, 255, 0.2);
 	font-family: "lekton";
@@ -133,7 +134,7 @@ nav li:active{
 	font-size: 1rem;
 	z-index: 2;
 }
-#text_scotchée:hover{
+#text_scotche:hover{
 	color: rgb(0, 255, 0);
 	
 }
