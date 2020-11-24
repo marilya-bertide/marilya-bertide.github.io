@@ -1384,7 +1384,6 @@ a{
 #parcoursproto{
 	min-height: 300px;
 }
-#travauxvert{
 
 @media(min-width :1024px){
 	#accueil {height: auto}
@@ -1415,6 +1414,7 @@ a{
 	}
 	#u{
 		width: 50%;
+		display: block;
 	}
 	#ondulée{
 		height: 100vh;
