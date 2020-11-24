@@ -1398,4 +1398,18 @@ a{
 	}
 	#texte_pochoir{
 		width: 55%;
+	#home-travaux{
+		display: flex;
+	}
+	#vert{
+		width: 50%;
+	}
+	#u{
+		width: 50%;
+	}
+	#ondulée{
+		height: 100vh;
+		width: 100%;
+		object-fit: cover;
+	}
 }
