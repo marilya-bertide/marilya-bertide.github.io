@@ -120,6 +120,7 @@ nav li:active{
 }
 #travauxvert{
 	padding: 10px;
+	min-height: 300px;
 }
 #scotche{
 	color: rgb(0,255,0);
@@ -188,6 +189,9 @@ nav li:active{
 	margin: 0;
 	
 
+}
+#u{
+	display: none;
 }
 #text_ondulée{
 	color: rgba(255, 255, 255, 0.15);
@@ -1377,6 +1381,10 @@ a{
 	width: 100%;
 	object-fit: cover;
 	}
+#parcoursproto{
+	min-height: 300px;
+}
+#travauxvert{
 
 @media(min-width :1024px){
 	#accueil {height: auto}
