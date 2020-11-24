@@ -111,33 +111,23 @@ nav li:active{
 }
 	/*bleu fin*/
 	/*vert début*/
+#home-travaux{
+	background: black;
 #vert{
-	width: 59vw;
+
 	height: 115vh;
-	display: flex;
 	font-size: 1rem;
-	flex-wrap: wrap;
-	justify-content: flex-start;
-	align-items: flex-start;
-	overflow-y: visible;
 }
 #scotchée{
 	color: rgb(0,255,0);
 	top: 0vw;
-	width:32vw;
-	vertical-align: top;
 	margin: 0;
 	padding: 0;
-	align-content: flex-start;
-	flex-wrap: wrap;
 	z-index: 2;
 	}
 #text_scotchée{
 	position: absolute;
-	width: 160px;
 	color: rgba(255, 255, 255, 0.2);
-	left: 5vw;
-	top:65vw;
 	font-family: "lekton";
 	margin: 0;
 	font-size: 1rem;
@@ -152,7 +142,6 @@ nav li:active{
 	color: rgb(0, 255, 0);
 	padding: auto;
 	vertical-align: middle;
-	width: 27vw;
 	height: 59.3vh;
 	z-index: 2;
 	font-family: "darker grotesque";
@@ -184,8 +173,6 @@ nav li:active{
 	margin: 5vw;
 }
 #ondulée{
-	vertical-align: top;
-	width: 39vw;
 	padding: 0;
 	margin: 0;
 	
@@ -193,7 +180,6 @@ nav li:active{
 }
 #text_ondulée{
 	position: absolute;
-	width: 160px;
 	color: rgba(255, 255, 255, 0.15);
 	left: 87vw;
 	top:90vw;
@@ -233,8 +219,6 @@ a{
 	font-weight : bold;
 	color: rgb(255,0,0);
 	font-size: 1.7rem;
-	width: 25vw;
-	margin-left: 4vw;
 	line-height: 1.5;
 }
 #nom_projet{
