@@ -2,15 +2,6 @@
 /*accueil début*/
 	/*bleu début*/
 #index{
-	
-	width: 100% ;
-	font-size: 0;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: flex-start;
-	align-items: flex-start;
-	height: 300vh;
-  	background: linear-gradient(180deg, rgb(0, 0, 255)0%,  rgb(0, 0, 255)100vh, black 100vh,  black 200vh,white 200vh);
 
 }
 header{
