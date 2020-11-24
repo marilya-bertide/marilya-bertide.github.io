@@ -118,6 +118,9 @@ nav li:active{
 
 	font-size: 1rem;
 }
+#travauxvert{
+	padding: 10px;
+}
 #scotche{
 	color: rgb(0,255,0);
 	top: 0vw;
